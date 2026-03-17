@@ -34,7 +34,6 @@ export default function Skill() {
           <section>Postgres</section>
           <section>MySQL</section>
           <section>Prisma</section>
-          <section>LLM (LangChain Basic)</section>
         </CardContent>
       </Card>
     </div>
