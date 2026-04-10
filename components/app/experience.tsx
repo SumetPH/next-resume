@@ -9,9 +9,9 @@ export default function Experience() {
           <span className="text-xl font-bold">Experience</span>
         </CardHeader>
         <CardContent>
-          <div className="flex gap-4">
-            <section>
-              <BriefcaseBusiness />
+          <div className="flex gap-3">
+            <section className="pt-1">
+              <BriefcaseBusiness size={16} />
             </section>
             <section>
               <section className="text-sm">2021 - Present</section>

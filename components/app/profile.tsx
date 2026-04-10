@@ -9,9 +9,11 @@ export default function Profile() {
           <AvatarFallback></AvatarFallback>
         </Avatar>
         <div>
-          <section className="text-3xl font-bold">Web Developer</section>
+          <section className="text-3xl font-bold">Hello</section>
+          <section className="text-lg font-medium">My name is SumetPH.</section>
           <section className="text-lg font-medium">
-            Hello, My name is SumetPH.
+            This is my personal website where I showcase my information and
+            skills.
           </section>
         </div>
       </div>

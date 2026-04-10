@@ -9,24 +9,24 @@ export default function Education() {
           <span className="text-xl font-bold">Education</span>
         </CardHeader>
         <CardContent>
-          <div className="flex gap-4 mb-3">
-            <section>
-              <University />
+          <div className="flex gap-3 mb-3">
+            <section className="pt-1">
+              <University size={16} />
             </section>
             <section>
-              <section className="font-medium">
+              <section>
                 2017 : Diploma in Electronic Srisongkram Industrial Technology,
                 Nakhonphanom University
               </section>
               <section className="text-sm">GPA : 3.65</section>
             </section>
           </div>
-          <div className="flex gap-4 mb-3">
-            <section>
-              <University />
+          <div className="flex gap-3 mb-3">
+            <section className="pt-1">
+              <University size={16} />
             </section>
             <section>
-              <section className="font-medium">
+              <section>
                 2019 : Bachelor of Business Administration Program in Computer
                 Information System Rajamangala University of Technology Isan
                 Sakon Nakhon Campus

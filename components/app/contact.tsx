@@ -9,23 +9,23 @@ export default function Contact() {
           <span className="text-xl font-bold">Contact</span>
         </CardHeader>
         <CardContent>
-          <div className="flex gap-4 mb-3">
-            <section>
-              <GitBranch />
+          <div className="flex gap-3 mb-3">
+            <section className="pt-1">
+              <GitBranch size={16} />
             </section>
             <section>
-              <span className="font-medium">Github : </span>
+              <span>Github : </span>
               <a href="https://github.com/sumetph" target="_blank">
                 github.com/sumetph
               </a>
             </section>
           </div>
-          <div className="flex gap-4 mb-3">
-            <section>
-              <Mail />
+          <div className="flex gap-3 mb-3">
+            <section className="pt-1">
+              <Mail size={16} />
             </section>
             <section>
-              <span className="font-medium">Email : </span>
+              <span>Email : </span>
               <span>sumetph.dev@gmail.com</span>
             </section>
           </div>

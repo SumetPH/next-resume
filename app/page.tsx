@@ -18,10 +18,10 @@ export default function Home() {
           <Contact />
         </div>
         <div className="col-span-2">
-          <Education />
+          <Skill />
         </div>
         <div className="col-span-2">
-          <Skill />
+          <Education />
         </div>
       </div>
     </div>

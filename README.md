@@ -1,17 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# next-resume
+
+Personal resume website built with Next.js, showcasing profile, work experience, skills, education, and contact information.
+
+## Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org) (App Router)
+- **Language**: TypeScript
+- **UI Library**: [shadcn/ui](https://ui.shadcn.com) (Radix UI)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com)
+- **Icons**: [react-icons](https://react-icons.github.io/react-icons), [lucide-react](https://lucide.dev)
+- **Theming**: [next-themes](https://github.com/pacocoursey/next-themes)
+- **Font**: [Geist](https://vercel.com/font)
+
+## Features
+
+- Responsive layout for mobile and desktop
+- Dark mode support
+- Sections: Profile, Experience, Contact, Skills, Education
 
 ## Getting Started
 
-First, run the development server:
+**Prerequisites**: [Node.js](https://nodejs.org) and [pnpm](https://pnpm.io)
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Install dependencies
+pnpm install
+
+# Start development server
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
